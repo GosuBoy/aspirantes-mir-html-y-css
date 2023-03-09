@@ -1,0 +1,56 @@
+* {
+    font-family: monospace;
+}
+body{
+    background-color: #2c2850;
+}
+form {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    box-shadow: 10px 10px 10px 5px rgb(20, 20, 20); 
+    color: rgb(255, 255, 255); 
+    background: linear-gradient(#9a41d5,#082c8d);
+}
+h1{
+    margin: 0%;
+}
+label {
+    padding: 5px;
+    display: block;
+}
+fieldset {  
+    padding-left: 0%;
+    padding-right: 0%;
+    border-style: none;
+}
+.entry-field {
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 7px;
+    width: 100% ;
+} 
+#button-container{
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+#join-button {
+    display: block;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    border-color: #082c8d;
+    padding: 5px 15px;
+    margin-left: auto;
+    margin-right: 0px;
+}
+#terminos-y-condiciones {
+    display: inline-block;
+}
+@media (min-width: 500px) {
+    form {
+        box-sizing: content-box;
+        width: 300px;
+    }
+}

@@ -8,6 +8,33 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <form>
+        <fieldset>
+            <!-- <label id="form-headder">Login</label> -->
+            <h1>Login</h1>
+        </fieldset>
+        <fieldset>
+            <label for="email">Email</label>
+            <input class="entry-field" type="email" name="email" >
+        </fieldset>
+        <fieldset>
+            <label for="password">Password</label>
+            <input class="entry-field" type="password" name="password">
+        </fieldset>
+        <fieldset>
+            <label>Género</label>
+            <select class="entry-field">
+                <option value="M">Masculino</option>
+                <option value="F">Femenino</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <input type="checkbox" name="seleccion" value="terminos-y-condiciones" />
+            <label id="terminos-y-condiciones">Acepto los términos</label>
+        </fieldset>
+        <fieldset id="button-container">
+            <button id="join-button">Ingresar</button>
+        </fieldset>
+    </form>    
 </body>
 </html>
